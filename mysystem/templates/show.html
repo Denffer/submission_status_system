@@ -1,0 +1,17 @@
+{% extends 'background.html' %}
+{% load staticfiles %}
+
+<!-- <div class="column status"><span class="label label-success">In Progress</span></div> -->
+<!-- <p>{{ student.submission_status }}</p> -->
+{% block content %}
+    {% for student in status_list %}
+        <div> 
+            {{ student.student_id }}
+            {% if student.submission_status %}
+                <div class="column status"><span class="label label-primary">Submitted</span></div>
+            {% endif %}
+            {{ student.submission_time }}</p>
+        </div>
+    {% endfor %}
+
+{% endblock content %}
