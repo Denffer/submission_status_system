@@ -1,0 +1,9 @@
+{
+    "assignment1": {"Open": true, "due_date": "2016-12-21 21:54:51", "requirement": ["test.sh"]},
+    "assignment2": {"Open": false, "due_date": "2017-01-01 00:00:00", "requirement": ["test.sh"]},
+    "assignment3": {"Open": false, "due_date": "2017-01-01 00:00:00", "requirement": ["test.sh"]},
+    "assignment4": {"Open": false, "due_date": "2017-01-01 00:00:00", "requirement": ["test.sh"]},
+    "assignment5": {"Open": false, "due_date": "2017-01-01 00:00:00", "requirement": ["test.sh"]},
+    "assignment6": {"Open": false, "due_date": "2017-01-01 00:00:00", "requirement": ["test.sh"]},
+    "assignment7": {"Open": false, "due_date": "2017-01-01 00:00:00", "requirement": ["test.sh"]},
+} 
