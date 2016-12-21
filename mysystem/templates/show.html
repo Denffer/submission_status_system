@@ -5,13 +5,12 @@
 <!-- <p>{{ student.submission_status }}</p> -->
 {% block content %}
     {% for student in status_list %}
-        <div> 
-            {{ student.student_id }}
-            {% if student.submission_status %}
-                <div class="column status"><span class="label label-primary">Submitted</span></div>
-            {% endif %}
-            {{ student.submission_time }}</p>
-        </div>
+    <br>
+    <div class="oneline">{{ student.student_id }}</div>
+        {% if student.submission_status %}
+            <div class="column status oneline"><span class="label label-primary">Submitted</span></div>
+        {% endif %}
+    <div class="oneline">{{ student.submission_time }}</div>
     {% endfor %}
 
 {% endblock content %}
