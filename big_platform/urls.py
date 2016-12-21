@@ -18,6 +18,7 @@ from django.contrib import admin
 from mysystem import views
 
 urlpatterns = [
-    url(r'^$', views.show),
+    url(r'^$', views.index),
+    url(r'^assignment(?P<assignment_index>[0-9]+)$', views.show),
     url(r'^admin/', admin.site.urls),
 ]
